@@ -184,27 +184,27 @@ nav h1 a {
 
 /* ====================== Restaurant Details ====================== */
 .inside header {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   z-index: 1000;
 }
 .inside #map-container {
-  background: blue none repeat scroll 0 0;
-  height: 87%;
   position: fixed;
-  right: 0;
-  top: 80px;
+  background: blue none repeat scroll 0 0;
+  height: 10%;
   width: 50%;
+  margin: 20px 0 10px;
 }
 .inside #map {
+  position: fixed;
   background-color: #ccc;
   height: 100%;
   width: 100%;
 }
 .inside #footer {
   bottom: 0;
-  position: absolute;
+  position: fixed;
   width: 50%;
 }
 #restaurant-name {
@@ -218,6 +218,7 @@ nav h1 a {
   line-height: 1.1;
 }
 #restaurant-img {
+  height: 50%;
 	width: 90%;
 }
 #restaurant-address {
