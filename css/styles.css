@@ -59,6 +59,7 @@ nav {
 }
 nav h1 {
   margin: auto;
+  padding: 1em 0 1em 0;
 }
 nav h1 a {
   color: #fff;
